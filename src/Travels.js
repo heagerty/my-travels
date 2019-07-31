@@ -38,7 +38,7 @@ const travels = [
 const Travels = () => (
     <div>
         {travels.map(travel => (
-            <Travel destination={travel.destination} country={travel.country} photo={travel.photo} distance={travel.distance} />
+            <Travel key={travel.destination} destination={travel.destination} country={travel.country} photo={travel.photo} distance={travel.distance} />
         ))}
     </div>
 );
