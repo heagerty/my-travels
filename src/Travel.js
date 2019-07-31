@@ -1,5 +1,3 @@
-// src/Travel.js
-
 import React from "react";
 
 const Travel = ({ destination, country, photo, distance }) => (
